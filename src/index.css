@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure consistent box-sizing */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a; /* Dark background for better visibility */
+  width: 100%; /* Full width */
+  height: 10vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.navbar-brand {
+  font-size: 1.8rem; /* Larger font for branding */
+  font-weight: bold; /* Makes it stand out */
+  color: #fff;
+  margin-left:0.5rem;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+  color: #007bff;/* Adds a hover effect for branding */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* Even spacing between links */
+  margin: 0;
+  padding-right: 0.5rem;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #007bff; /* Green hover effect */
+  text-decoration:underline;
+}
+
+.navbar-links .logout-button {
+  background-color: transparent;
+  font-family: 'Merriweather', serif;
+  color:white;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-links .logout-button:hover {
+  color: #007bff;
+  text-decoration:underline;
+}
+
+
+
+
+
+
+/* Home Page css */
+.landing{
+  max-width: 900px;
+  margin: 2rem auto; /* Center content with some spacing */
+  padding: 1rem 2rem; /* Add padding for breathing room */
+  border:4px;
+  border-radius: 8px; /* Smooth rounded corners */
+  background-color: rgb(163, 162, 164);;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.landing h1{
+  color:rgb(18, 2, 8); /* Slightly darker heading color */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.landing strong{
+  color:rgb(41, 6, 237);
+}
+
+
